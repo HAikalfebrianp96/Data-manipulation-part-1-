@@ -1,1 +1,8 @@
-# Data-manipulation-part-1-
+## **Dataframe manipulation (part 1)**
+Data has to be manipulated and cleaned so that it can provide useful insights. Data manipulation is a necessity as there is an increasing amount of data being stored and used.
+This article explains some of the data manipulation operations that can help with organizing our data and extracting useful insights.
+Pandas, as explained here, is an open-source python library that implements easy, efficient, high-performance data analysis tools. Pandas provide efficient access to data wrangling/munging tasks that occupy almost 80 percent of a data scientist’s time. There are different ways to store data for analysis: rectangular data or tabular data containing rows and columns is the most common form.
+Tabular data is represented as a Dataframe object in pandas. Every value within a column of the Dataframe has the same data type, either text or numeric but different columns can contain different data types. Dataframes can be created in various ways, like passing in a dictionary, list of lists.
+
+In Machine Learning, the model requires a dataset to operate, i.e. to train and test. But data doesn’t come fully prepared and ready to use. There are discrepancies like “Nan”/ “Null” / “NA” values in many rows and columns. Sometimes the data set also contains some of the row and columns which are not even required in the operation of our model. In such conditions, it requires proper cleaning and modification of the data set to make it an efficient input for our model. We achieve that by practicing “Data Wrangling” before giving data input to the model.
+Ok, So let’s dive into the programming part. Our first aim is to create a Pandas dataframe in Python, as you may know, pandas is one of the most used libraries of Python.
